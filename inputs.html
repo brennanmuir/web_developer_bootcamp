@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Inputs Demo</title>
+</head>
+
+<body>
+
+  <p>Do you prefer cats or dogs?</p>
+
+  <form>
+    <label for="dogs">Dogs:</label>
+    <input type="radio" name="petChoice" value="DOGS" id="dogs">
+    <!-- setting the input name as the same thing allows them to be classified together,
+         therefore only being allowed to choose one at a time. -->
+    <label for="cats">Cats:</label>
+    <input type="radio" name="petChoice" value="CATS" id="cats">
+
+    <p>What is your current mood?</p>
+    <select name="color">
+      <option value="happy">:)</option>
+      <option value="meh">:|</option>
+      <option value="sad">:()</option>
+    </select>
+
+    <textarea name="paragraph" rows="10" cols="50"></textarea>
+    <button>Go!</button>
+    <!-- When the button is the last thing in the form, it will save and submit everything above it -->
+
+  </form>
+
+
+</body>
+
+</html>
