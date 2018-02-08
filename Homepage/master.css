@@ -1,0 +1,45 @@
+h1{
+  background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+h2{
+  background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+h3{
+  background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+p{
+  background: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+body{
+  /* background: #42f4ce */
+  background: url(https://wmich.edu/sites/default/files/attachments/u171/2016/W-gold-black.png);
+  background-repeat: repeat;
+}
+
+table{
+  background: rgba(255, 255, 255, 0.8);
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
